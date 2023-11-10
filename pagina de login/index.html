@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <button id="login-access">Login</button>
+            <button id="register-access">Register</button>
+        </nav>
+    </header>
+    <div class="hide" id="login-page">
+        <form id="login-form">
+            <label>Name </label> <br>
+            <input type="text" id="username" placeholder="Username"> <br>
+            <label>Password </label> <br>
+            <input type="password" id="password" placeholder="Password">
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div id="login-message" class="hide">
+        <h1>Login bem sucedido!</h1>
+        <a href="index.html">Voltar ao início</a>
+    </div>
+    <div class="hide" id="register-page">
+        <form id="register-form">
+            <label>Name </label> <br>
+            <input type="text" id="username" placeholder="Username"> <br>
+            <label>Password </label> <br>
+            <input type="password" id="password" placeholder="Password">
+            <br>
+            <label>Email</label> <br>
+            <input type="text" id="email" placeholder="Email"> <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <div id="register-message" class="hide">
+        <h1>Registro bem sucedido!</h1>
+        <a href="index.html">Voltar ao início</a>
+    </div>
+</body>
+</html>

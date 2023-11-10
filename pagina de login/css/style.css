@@ -1,0 +1,79 @@
+* {
+    font-size: 1.2rem;
+    font-family: verdana;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    padding: 10px;
+}
+#navbar button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+#navbar button:hover{
+    background-color: rgb(248, 247, 247);
+    color: black;
+}
+div#login-page label{
+    font-size: 1rem;
+}
+div#login-page, div#register-page{
+    border: 2px solid black;
+    margin: 3rem auto;
+    max-width: 450px;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+div#login-page input, div#register-page input{
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+div#login-page h1, div#register-page h1 {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    font-size: 1.2rem;
+}
+div#login-page button, div#register-page button{
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div#login-page button:hover, div#register-page button:hover{
+    background-color: lightgray;
+}
+
+.hide{
+    display: none;
+}
+
+div#login-message, div#register-message {
+    margin: 3rem auto;
+    max-width: 450px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div#login-message a, div#register-message a{
+    text-decoration: none;
+    color: black;
+}
+div#login-message a:visited, div#register-message a:visited{
+    text-decoration: none;
+    color: black;
+}
